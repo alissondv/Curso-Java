@@ -40,3 +40,21 @@ Nome (ou identificador)
 | tipos numéricos com ponto flutuante | double | 64 bits    |
 | um caractere Unicode | char          |     16 bits     |
 | valor verdade | boolean          |        1 bit     |
+
+# Cada bit = 2 possibilidades
+> Um bit pode armazenar 2 valores possíveis (0 ou 1)
+> 8 bits:
+> 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 = 28 = 256 possibilidades
+
+## Nomes de variáveis
+Não pode começar com dígito: use uma letra ou _
+* Não pode ter espaço em branco
+* Não usar acentos ou til
+* Sugestão: use o padrão "camel case"
+
+**Errado:**                             **Correto:**
+int 5minutos;                           int _5minutos;
+
+int salário;                            int salario;
+
+int salário do funcionario;             int salarioDoFuncionario;
