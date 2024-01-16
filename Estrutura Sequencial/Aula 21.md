@@ -32,7 +32,7 @@ Nome (ou identificador)
 <table>
 <thead>
 <tr>
-<th>fDescrição</th>
+<th>Descrição</th>
 <th>Tipo</th>
 <th>Tamanho</th>
 <th>Valores</th>
@@ -40,8 +40,13 @@ Nome (ou identificador)
 </thead>
 <tbody>
 <tr>
-<td>baz</td>
-<td>bim</td>
+<td>Tipos númericos Inteiros/td>
+  <td>Tipos numericos com ponto flutuante/td>
+  <td>Um caractere Inicode/td>
+<td>byte</td>
+<td>short</td>
+<td>int</td>
+<td>long</td>
 </tr>
 </tbody>
 </table>
