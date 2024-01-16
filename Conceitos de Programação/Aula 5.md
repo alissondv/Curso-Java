@@ -1,5 +1,5 @@
 # O que é preciso para se fazer um programa de computador?
-##Vamos precisar de:
+## Vamos precisar de:
 
 * Uma linguagem de programação: regras léxicas e sintáticas para se
 escrever o programa
