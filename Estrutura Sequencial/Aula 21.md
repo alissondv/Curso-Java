@@ -16,11 +16,11 @@ dados durante a execução dos programas.
 
 Exemplos:
 
-int idade = 25;
+  int idade = 25;
 
-double altura = 1.68;
+  double altura = 1.68;
 
-char sexo = 'F';
+  char sexo = 'F';
 
 **Uma variável possui:**
 Nome (ou identificador)
