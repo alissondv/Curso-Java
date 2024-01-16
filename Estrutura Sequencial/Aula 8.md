@@ -8,9 +8,8 @@ Operadores aritméticos
 
 **Precedência:** 
 
-1º Lugar : * / %
-
-2º Lugar : + -
+`1º Lugar : * / %
+2º Lugar : + -`
 
   
 ## Exemplos de expressões aritméticas
