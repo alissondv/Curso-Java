@@ -13,7 +13,7 @@ o programa seja executado
 para se escrever programas.
 
 ##Léxica
-Diz respeito à correção das palavras "isoladas" (ortografia).
+>Diz respeito à correção das palavras "isoladas" (ortografia).
 *Exemplo (Português):*  *Linguagem de programação:*
 cachorro                main
 caxorro                 maim
