@@ -27,3 +27,21 @@ Nome (ou identificador)
 * Tipo
 * Valor
 * Endereço
+
+## Tipos primitivos em Java
+<table>
+<thead>
+<tr>
+<th>fDescrição</th>
+<th>Tipo</th>
+<th>Tamanho</th>
+<th>Valores</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>baz</td>
+<td>bim</td>
+</tr>
+</tbody>
+</table>
