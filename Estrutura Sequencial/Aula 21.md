@@ -1,28 +1,27 @@
-# Expressões aritméticas
-Operadores aritméticos
-`+ adição
-- subtração
-* multiplicação
-/ divisão
-% resto da divisão ("mod")`
+# Variáveis e tipos primitivos em Java
+## Visão geral
+* Um programa de computador em execução lida com dados
+* • Como esses dados são armazenados?
+* Em **VARIÁVEIS!**
 
-**Precedência:** 
+## Variáveis
+** Definição informal:**
+Em programação, uma variável é uma porção de memória (RAM) utilizada para armazenar
+dados durante a execução dos programas.
 
-`1º Lugar : * / %
-2º Lugar : + -`
+# Declaração de variáveis
+**Sintaxe:**
+`<tipo> <nome> = <valor inicial>;`
+Exemplos:
 
-  
-## Exemplos de expressões aritméticas
-2 * 6 / 3 Resultado = 4 
+int idade = 25;
 
-3 + 2 * 4 Resultado = 11
+double altura = 1.68;
 
-(3 + 2) * 4 Resultado = 20
+char sexo = 'F';
 
-60 / (3 + 2) * 4 Resultado = 4
-
-60 / ((3 + 2) * 4) Resultado = 3
-
-## Exemplos com o operador "mod"
-> 14 % 3 Resultado = 2
-> 19 % 5 Resultado = 4
+**Uma variável possui:**
+Nome (ou identificador)
+* Tipo
+* Valor
+* Endereço
