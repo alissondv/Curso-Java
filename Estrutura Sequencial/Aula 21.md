@@ -13,6 +13,7 @@ dados durante a execução dos programas.
 **Sintaxe:**
 
 `<tipo> <nome> = <valor inicial>;`
+
 Exemplos:
 
 int idade = 25;
