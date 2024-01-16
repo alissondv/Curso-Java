@@ -32,7 +32,7 @@ Nome (ou identificador)
 <table>
 <thead>
 <tr>
-<th>Descrição</th>
+<th>Descrição<td>Tipos numericos com ponto flutuante</td></th>
 <th>Tipo</th>
 <th>Tamanho</th>
 <th>Valores</th>
@@ -41,7 +41,7 @@ Nome (ou identificador)
 <tbody>
 <tr>
 <td>Tipos númericos Inteiros</td>
-  <td>Tipos numericos com ponto flutuante</td>
+ 
   <td>Um caractere Inicode</td>
 <td>byte</td>
 <td>short</td>
