@@ -1,35 +1,23 @@
-# Marcando _inputs_ do tipo `radio`
-
-Outro elemento comum na web, é o _input_ do tipo `radio`.
-
-_Inputs_ do tipo `radio` são elementos de seleção única.
-
-Na aplicação CAC TAT, estes são os elementos para seleção do tipo de atendimento, onde o valor padrão é o primeiro campo (Ajuda) e as outras opções são: Elogio e Feedback.
-
-Para lidar com _inputs_ do tipo `radio`, o Cypress dispões da funcionalidade [`.check()`](https://on.cypress.io/check).
-
-Ou seja, depois da seleção de um elemento do tipo `radio`, basta encadear o comando `.check()`.
-
-Por exemplo: `cy.get('input[type="radio"]').check()`.
-
-> 👨‍🏫 O `.click()` também funciona para _inputs_ do tipo `radio`, porém, recomendo o uso do `.check()`, por questões de semântica.
-
-## Exercício
-
-1. Crie um teste chamado `marca o tipo de atendimento "Feedback"`
-2. Faça a verificação que o valor correto foi selecionado após o `.check()`
-3. Por fim, execute o novo teste no _Test Runner_
-
-## Exercício extra
-
-1. Crie um teste chamado `marca cada tipo de atendimento`
-2. Faça a verificação de que após o `.check()`, cada `radio` foi marcado (`.should('be.checked')`)
-3. Por fim, execute o novo teste no _Test Runner_
-
-> 👨‍🏫 Para a solução do exercício extra, recomendo ler sobre a funcionalidades [`.each()`](https://on.cypress.io/each) e [`cy.wrap()`](https://on.cypress.io/wrap).
->
-> Ou então, me assista criando o teste.
-
-___
-
-Com os novos testes passando, siga para a aula [aula 5](./05.md) para aprender como marcar (e desmarcar) _inputs_ do tipo `checkbox`.
+# Java - contextualização
+# O que é Java?
+* Linguagem de programação (regras sintáticas) 
+* Plataforma de desenvolvimento e execução
+  * Bibliotecas (API) 
+  * Ambientes de execução
+## Histórico
+Problemas resolvidos e motivo de seu sucesso: 
+ * Ponteiros / gerenciamento de memória
+ * Portabilidade falha: reescrever parte do código ao mudar
+de SO
+ * Utilização
+* Criada pela Sun Microsystems no meio da década de
+1990
+* Adquirida pela Oracle Corporation em 2010
+## Aspectos notáveis
+* Código compilado para bytecode e
+executado em máquina virtual (JVM) • Portável, segura, robusta
+* Roda em vários tipos de dispositivos
+* Domina o mercado corporativo desde
+o fim do século 20
+* Padrão Android por muitos anos
+## Edições
