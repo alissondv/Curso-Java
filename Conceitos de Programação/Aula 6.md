@@ -12,7 +12,7 @@ o programa seja executado
 > É um conjunto de regras **léxicas** (ortografia) e **sintáticas** (gramática)
 para se escrever programas.
 
-##Léxica
+## Léxica
 >Diz respeito à correção das palavras "isoladas" (ortografia).
 *Exemplo (Português):*  *Linguagem de programação:*
 cachorro                main
