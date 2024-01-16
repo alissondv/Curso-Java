@@ -7,6 +7,7 @@ Operadores aritméticos
 % resto da divisão ("mod")`
 
 **Precedência:** 1º Lugar : * / %
+
                  2º Lugar : + -
   
 ## Exemplos de expressões aritméticas
