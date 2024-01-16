@@ -11,6 +11,7 @@ dados durante a execução dos programas.
 
 # Declaração de variáveis
 **Sintaxe:**
+
 `<tipo> <nome> = <valor inicial>;`
 Exemplos:
 
