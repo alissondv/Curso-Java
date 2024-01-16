@@ -5,6 +5,7 @@ Operadores aritméticos
 * multiplicação
 / divisão
 % resto da divisão ("mod")`
+
 **Precedência:** 1º Lugar : * / %
                  2º Lugar : + -
   
