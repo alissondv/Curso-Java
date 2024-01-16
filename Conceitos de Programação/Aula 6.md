@@ -9,7 +9,7 @@ objeto
 o programa seja executado
 
 ## Linguagem de programação
-É um conjunto de regras *léxicas* (ortografia) e *sintáticas* (gramática)
+> É um conjunto de regras **léxicas** (ortografia) e **sintáticas** (gramática)
 para se escrever programas.
 
 ##Léxica
