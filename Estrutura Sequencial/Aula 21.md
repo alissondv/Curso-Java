@@ -53,6 +53,7 @@ Não pode começar com dígito: use uma letra ou _
 * Sugestão: use o padrão "camel case"
 
 **Errado:**                             **Correto:**
+
 int 5minutos;                           int _5minutos;
 
 int salário;                            int salario;
