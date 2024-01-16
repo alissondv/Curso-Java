@@ -29,24 +29,9 @@ Nome (ou identificador)
 * Endereço
 
 ## Tipos primitivos em Java
-<table>
-<thead>
-<tr>
-<th>Descrição<td>Tipos numericos com ponto flutuante</td></th>
-<th>Tipo</th>
-<th>Tamanho</th>
-<th>Valores</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Tipos númericos Inteiros</td>
- 
-  <td>Um caractere Inicode</td>
-<td>byte</td>
-<td>short</td>
-<td>int</td>
-<td>long</td>
-</tr>
-</tbody>
-</table>
+|   Descrição                               |     Tipo      |    Tamanho    |
+| -------------                             | ------------- | ------------- |
+| tipos numéricos inteiros                  | byte          |               |
+| tipos numéricos com ponto flutuante       | float         |  32 bits      |                                           
+| Um caractere unicode                      | char          |  16 bits      |
+| Valor verdade                             | boolean       |  1 bit        |
