@@ -52,7 +52,7 @@ Não pode começar com dígito: use uma letra ou _
 * Não usar acentos ou til
 * Sugestão: use o padrão "camel case"
 
-**Errado:**                             **Correto:**
+**Errado:**________________________________**Correto:**
 
 int 5minutos;                           int _5minutos;
 
