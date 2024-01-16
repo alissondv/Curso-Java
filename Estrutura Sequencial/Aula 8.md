@@ -6,9 +6,12 @@ Operadores aritméticos
 / divisão
 % resto da divisão ("mod")`
 
-**Precedência:** 1º Lugar : * / %
+**Precedência:** 
 
-                 2º Lugar : + -
+1º Lugar : * / %
+
+2º Lugar : + -
+
   
 ## Exemplos de expressões aritméticas
 2 * 6 / 3 Resultado = 4 
