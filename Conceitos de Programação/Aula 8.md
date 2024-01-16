@@ -5,7 +5,7 @@
 ## Interpretação
 `Código fonte -> Execução`
 ## Abordagem híbrida
-`Código fonte -> Bytecode -> Execução`
+`**Código fonte -> Bytecode -> Execução**`
 # Vantagens
 **Compilação:**
 * velocidade do programa
