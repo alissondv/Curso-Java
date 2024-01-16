@@ -40,9 +40,9 @@ Nome (ou identificador)
 </thead>
 <tbody>
 <tr>
-<td>Tipos númericos Inteiros/td>
-  <td>Tipos numericos com ponto flutuante/td>
-  <td>Um caractere Inicode/td>
+<td>Tipos númericos Inteiros</td>
+  <td>Tipos numericos com ponto flutuante</td>
+  <td>Um caractere Inicode</td>
 <td>byte</td>
 <td>short</td>
 <td>int</td>
