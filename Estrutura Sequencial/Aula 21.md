@@ -12,7 +12,7 @@ dados durante a execução dos programas.
 # Declaração de variáveis
 **Sintaxe:**
 
-`<tipo> <nome> = <valor inicial>;`
+` <tipo> <nome> = <valor inicial>; `
 
 Exemplos:
 
@@ -31,7 +31,7 @@ Nome (ou identificador)
 ## Tipos primitivos em Java
 |   Descrição                               |     Tipo      |    Tamanho    |
 | -------------                             | ------------- | ------------- |
-| tipos numéricos inteiros                  | byte          |               |
+| tipos numéricos inteiros                  | byte          |  8 bits       |
 | tipos numéricos com ponto flutuante       | float         |  32 bits      |                                           
 | Um caractere unicode                      | char          |  16 bits      |
 | Valor verdade                             | boolean       |  1 bit        |
