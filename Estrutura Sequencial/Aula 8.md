@@ -9,11 +9,11 @@ Operadores aritméticos
                  2º Lugar : + -
   
 ## Exemplos de expressões aritméticas
-'2 * 6 / 3 Resultado = 4<sub>
-3 + 2 * 4 Resultado = 11<sub>
-(3 + 2) * 4 Resultado = 20<sub>
-60 / (3 + 2) * 4 Resultado = 48<sub>
-60 / ((3 + 2) * 4) Resultado = 3'<sub>
+'2 * 6 / 3 Resultado = 4&nbsp;
+3 + 2 * 4 Resultado = 11&nbsp;
+(3 + 2) * 4 Resultado = 20&nbsp;
+60 / (3 + 2) * 4 Resultado = 48&nbsp;
+60 / ((3 + 2) * 4) Resultado = 3'&nbsp;
 
 ## Exemplos com o operador "mod"
 > 14 % 3 Resultado = 2
