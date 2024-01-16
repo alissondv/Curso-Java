@@ -19,7 +19,7 @@ cachorro                main
 caxorro                 maim
 
 ## Sintática
-Diz respeito à correção das sentenças (gramática).
+> Diz respeito à correção das sentenças (gramática).
 *Exemplo (Português):*   *Exemplo (Português):* 
 O cachorro está com fome.  x = 2+y;
 A cachorro est[a com fome.  x = +2 y;
