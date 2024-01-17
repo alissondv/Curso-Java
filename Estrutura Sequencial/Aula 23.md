@@ -177,7 +177,7 @@ public class Main {
  }
 }
 ~~~~
-> CONSOLE:
+**CONSOLE:**
 
 > Products:
 
