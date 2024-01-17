@@ -177,7 +177,9 @@ public class Main {
  }
 }
 ~~~~
-> CONSOLE: Products:
+> CONSOLE:
+
+> Products:
 
 
 > Computer, wich price is $ 2100,000000 
