@@ -1,6 +1,5 @@
 # Saída de dados em Java
 ## Para escrever na tela um texto qualquer
-`System.out.print("Bom dia!");`
 
 **Sem quebra de linha ao final:**
 ~~~javascript
