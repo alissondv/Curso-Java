@@ -54,8 +54,7 @@ public class Main {
 
 > CONSOLE: 32
 
-## Para escrever o conteúdo de uma variável
-com ponto flutuante
+## Para escrever o conteúdo de uma variável com ponto flutuante
 
 **Suponha uma variável tipo double declarada e iniciada:**
 **double x = 10.35784;**
@@ -80,8 +79,7 @@ public class Main {
 >CONSOLE:> 10.35784 10,36 10,3578 10.3578
 
 
-## Para concatenar vários elementos em um
-mesmo comando de escrita
+## Para concatenar vários elementos em um mesmo comando de escrita
 
 **Regra geral para print e println:**
 > elemento1 + elemento2 + elemento3 + ... + elementoN
@@ -100,3 +98,21 @@ public class Main {
 ~~~
 > CONSOLE: RESULTADO = 10 METROS
 
+
+## Para concatenar vários elementos em um mesmo comando de escrita
+**Regra geral para printf:**
+
+"TEXTO1 %f TEXTO2 %f TEXTO3", variavel1, variavel2 
+
+~~~javascript
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		double x = 10.4789;
+		System.out.printf("RESULTADO = %.2f metros%n", x);;
+ }
+}
+~~~
+> CONSOLE: RESULTADO = 10,48 metros
