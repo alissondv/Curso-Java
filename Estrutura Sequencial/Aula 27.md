@@ -1,4 +1,4 @@
-[# Funções matemáticas em Java
+# Funções matemáticas em Java
 **Algumas funções matemáticas em Java**
 |   Exemplo     |  Significado  |
 | ------------- | ------------- |
