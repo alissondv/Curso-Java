@@ -22,3 +22,8 @@
 >
 >
 >X <= 20 && X == 10 && X != 3 FALSE
+
+
+## Ideia por trás do operador "OU"
+> [!NOTE]
+> Pelo menos uma condição deve ser verdadeira!
