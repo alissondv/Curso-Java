@@ -13,6 +13,7 @@ public class Main {
 }
 
 ~~~
+> CONSOLE: Bom diaBom dia
 **Com quebra de linha ao final:**
 ~~~javascript
 public class Main {
@@ -24,6 +25,9 @@ public class Main {
 }
 
 ~~~
+> CONSOLE: Bom diaBom dia
+
+
 ## Para escrever o conteúdo de uma variável de algum tipo básico
 >Suponha uma variável tipo int declarada e iniciada: int y = 32;
 
