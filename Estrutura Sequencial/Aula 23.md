@@ -51,3 +51,29 @@ public class Main {
 
 ~~~
 
+
+> CONSOLE: 32
+
+## Para escrever o conteúdo de uma variável
+com ponto flutuante
+
+**Suponha uma variável tipo double declarada e iniciada:**
+**double x = 10.35784;**
+
+
+~~~javascript
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		double x = 10.35784;
+		System.out.println(x);
+		System.out.printf("%.2f%n", x);
+		System.out.printf("%.4f%n", x);
+		Locale.setDefault(Locale.US);
+		System.out.printf("%.4f%n", x);;
+ }
+}
+~~~
+
