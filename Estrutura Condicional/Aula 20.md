@@ -2,7 +2,7 @@
 | Operador  | Significado |
 | ------------- | ------------- |
 | &&  | E  |
-|  \|\| | \OU  |
+|  \| \| | OU  |
 |  !  | NÃO  |
 
 ## Ideia por trás do operador "E"
