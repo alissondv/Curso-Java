@@ -80,3 +80,23 @@ public class Main {
 >CONSOLE:> 10.35784 10,36 10,3578 10.3578
 
 
+## Para concatenar vários elementos em um
+mesmo comando de escrita
+
+**Regra geral para print e println:**
+> elemento1 + elemento2 + elemento3 + ... + elementoN
+
+
+~~~javascript
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x = 10;
+		System.out.println("RESULTADO = " + x + " METROS");;
+ }
+}
+~~~
+> CONSOLE: RESULTADO = 10 METROS
+
