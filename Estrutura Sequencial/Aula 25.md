@@ -1,26 +1,7 @@
-# Para ler um texto ATÉ A QUEBRA DE LINHA
-~~~Javascript
-import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String s1, s2, s3;
-		
-		s1 = sc.nextLine();
-		s2 = sc.nextLine();
-		s3 = sc.nextLine();
-		
-		System.out.println("DADOS DIGITADOS:");
-		System.out.println(s1);
-		System.out.println(s2);
-		System.out.println(s3);
-		sc.close();
- }
-}
-
-~~~
-## ATENÇÃO: quebra de linha pendente
-> [!NOTE]
-> Quando você usa um comando de leitura diferente do nextLine() e dá alguma quebra de linha, essa quebra de linha fica "pendente" >na entrada padrão.
+# Funções matemáticas em Java
+**Algumas funções matemáticas em Java**
+|   Exemplo     |  Significado  |
+| ------------- | ------------- |
+| A = Math.sqrt(x); | Variável A recebe a raiz quadrada de x  |
+| A = Math.pow(x, y);  | Variável A recebe o resultado de x elevado a y |
+| A = Math.abs(x); |Variável A recebe o valor absoluto de x |
