@@ -134,7 +134,11 @@ System.out.println(y);
 ~~~
 ## Em seguida, usando os valores das variáveis, produza a seguinte saída na tela do console:
 Products:
+
+
 Computer, wich price is $2100,00
+
+
 Office desk, wich price is $ 650,50
 
 
@@ -142,5 +146,34 @@ Record: 30 years old, code 5290 and gender: F
 
 
 Measue with eight decimal places: 53,23456700
+
+
 Rouded (three decimal places): 53,235
+
+
 US decimal point: 53.235
+
+~~~javascript
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String product1 ="Computer";
+		String product2 ="Office desk";
+		
+		int age = 30;
+		int code = 5290;
+		char gender = 'F';
+		
+		double price1 = 2100.0;
+		double price2 = 650.50;
+		double measure = 53.23456700;
+		System.out.printf("Products: %n Computer, wich price is $ %f %n Office desk, wich price is $ %f %n%n", price1, price2);
+		System.out.printf("Record: %d years old, code $d and gender: %s %n%n",age,code,gender);
+		System.out.printf("Measue with eight decimal places: %f %n Rouded (three decimal places): %.3f %n US decimal point: %.3f",measure,measure,measure);
+		;
+ }
+}
+~~~~
