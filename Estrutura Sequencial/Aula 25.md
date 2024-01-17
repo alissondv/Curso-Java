@@ -1,59 +1,62 @@
-# Scanner
-## Para fazer entrada de dados, nós vamos criar um objeto do tipo "Scanner" da seguinte forma:
+# Funções matemáticas em Java
+**Algumas funções matemáticas em Java**
+|   Exemplo     |  Significado  |
+| ------------- | ------------- |
+| A = Math.sqrt(x); | Variável A recebe a raiz quadrada de x  |
+| A = Math.pow(x, y);  | Variável A recebe o resultado de x elevado a y |
+| A = Math.abs(x); |Variável A recebe o valor absoluto de x |
 
-`Scanner sc = new Scanner(System.in);`
 
-
-`import java.util.Scanner;`
-
-
-**x = sc.next();**
 ~~~Javascript
-import java.util.Scanner;
-
 public class Main {
+public static void main(String[] args) {
+	
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String x = sc.next();
-		System.out.printf("Você digitou:"+ x);
-		sc.close();
- }
+	double x = 3.0;
+	double y = 4.0;
+	double z = -5.0;
+	double A, B, C;
+	A = Math.sqrt(x);
+	B = Math.sqrt(y);
+	C = Math.sqrt(25.0);
+	System.out.println("Raiz quadrada de " + x + " = " + A);
+	System.out.println("Raiz quadrada de " + y + " = " + B);
+	System.out.println("Raiz quadrada de 25 = " + C);
+	A = Math.pow(x, y);
+	B = Math.pow(x, 2.0);
+	C = Math.pow(5.0, 2.0);
+	System.out.println(x + " elevado a " + y + " = " + A);
+	System.out.println(x + " elevado ao quadrado = " + B);
+	System.out.println("5 elevado ao quadrado = " + C);
+	A = Math.abs(y);
+	B = Math.abs(z);
+	System.out.println("Valor absoluto de " + y + " = " + A);
+	System.out.println("Valor absoluto de " + z + " = " + B);
 }
-
-~~~
-
-## Para ler um número inteiro
-**x = sc.nextInt();**
-~~~Javascript
-import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int x = sc.nextInt();
-		System.out.printf("Você digitou:"+ x);
-		sc.close();
- }
 }
 ~~~
-
-## Para ler um número com ponto flutuante
-**x = sc.nextDouble();**
-~~~Javascript
-import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		double x = sc.nextDouble();
-		System.out.printf("Você digitou:"+ x);
-		sc.close();
- }
-}
-
-~~~
-
-
+>CONSOLE:
+>
+>
+>Raiz quadrada de 3.0 = 1.7320508075688772
+>
+>
+>Raiz quadrada de 4.0 = 2.0
+>
+>
+>Raiz quadrada de 25 = 5.0
+>
+>
+>3.0 elevado a 4.0 = 81.0
+>
+>
+>3.0 elevado ao quadrado = 9.0
+>
+>
+>5 elevado ao quadrado = 25.0
+>
+>
+>Valor absoluto de 4.0 = 4.0
+>
+>
+>Valor absoluto de -5.0 = 5.0
