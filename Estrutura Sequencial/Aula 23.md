@@ -11,6 +11,15 @@ public class Main {
 		System.out.print("Bom dia!"); 
  }
 }
+```console
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.print("Bom dia!");
+		System.out.print("Bom dia!"); 
+ }
+}
+```
 ~~~
 **Com quebra de linha ao final:**
 ~~~javascript
