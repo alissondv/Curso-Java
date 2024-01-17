@@ -177,12 +177,24 @@ public class Main {
  }
 }
 ~~~~
-> CONSOLE: Products: 
+> CONSOLE: Products:
+
+
  Computer, wich price is $ 2100,000000 
+
+ 
  Office desk, wich price is $ 650,500000 
+
+
 
  Record: 30 years old, code $d and gender: 5290 
 
+
+
  Measue with eight decimal places: 53,234567 
+
+ 
  Rouded (three decimal places): 53,235 
- US decimal point: 53,235
+
+ 
+> US decimal point: 53,235
