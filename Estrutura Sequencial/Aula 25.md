@@ -4,7 +4,7 @@ Para fazer entrada de dados, nós vamos criar um objeto do tipo
 "Scanner" da seguinte forma:
 
 
-Scanner sc = new Scanner(System.in);
+`Scanner sc = new Scanner(System.in);`
 
 
 Para ler uma palavra (texto sem espaços)
@@ -22,23 +22,3 @@ Para ler um número com ponto flutuante
 Para ler um caractere
 `x = sc.next().charAt(0);`
 
-
-Para ler vários dados na mesma linha
-
-
-string x;
-
-
-int y;
-
-
-double z;
-
-
-x = sc.next();
-
-
-y = sc.nextInt();
-
-
-z = sc.nextDouble();
