@@ -35,7 +35,10 @@ public static void main(String[] args) {
 }
 }
 ~~~
->CONSOLE: Raiz quadrada de 3.0 = 1.7320508075688772
+>CONSOLE:
+>
+>
+>Raiz quadrada de 3.0 = 1.7320508075688772
 >
 >
 >Raiz quadrada de 4.0 = 2.0
@@ -51,8 +54,8 @@ public static void main(String[] args) {
 >
 >
 >5 elevado ao quadrado = 25.0
-
-
+>
+>
 >Valor absoluto de 4.0 = 4.0
 >
 >
