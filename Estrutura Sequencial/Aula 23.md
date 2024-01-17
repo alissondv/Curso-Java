@@ -7,6 +7,7 @@
 public class Main {
 
 	public static void main(String[] args) {
+		System.out.print("Bom dia!");
 		System.out.print("Bom dia!"); 
  }
 }
@@ -16,6 +17,7 @@ public class Main {
 public class Main {
 
 	public static void main(String[] args) {
+		System.out.println("Bom dia!");
 		System.out.println("Bom dia!");
  }
 }
