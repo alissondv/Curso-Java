@@ -115,3 +115,12 @@ public class Main {
 }
 ~~~
 > CONSOLE: RESULTADO = 10,48 metros
+
+## Para concatenar vários elementos em um mesmo comando de escrita
+
+**Regra geral para printf:**
+`"TEXTO1 %f TEXTO2 %f TEXTO3", variavel1, variavel2`
+* %f = ponto flutuante
+* %d = inteiro
+* %s = texto
+* %n = quebra de linha
