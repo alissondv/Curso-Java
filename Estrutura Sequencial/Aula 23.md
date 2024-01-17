@@ -9,3 +9,15 @@
 >Suponha uma variável tipo int declarada e iniciada: int y = 32;
 
 System.out.println(y);
+~~~javascript
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.print("Bom dia!"); 
+		System.out.println("Bom dia!");
+}
+}
+~~~
