@@ -131,7 +131,7 @@ System.out.println(y);
 				double price1 = 2100.0;
 				double price2 = 650.50;
 				double measure = 53.234567;
-		~~~
+~~~
 ## Em seguida, usando os valores das variáveis, produza a seguinte saída na tela do console:
 Products:
 Computer, wich price is $2100,00
