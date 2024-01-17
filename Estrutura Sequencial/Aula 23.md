@@ -3,13 +3,13 @@
 
 **Sem quebra de linha ao final:**
 ~~~javascript
-public class Main {
-
-	public static void main(String[] args) {
-		System.out.print("Bom dia!");
-		System.out.print("Bom dia!"); 
- }
-}
+			public class Main {
+			
+				public static void main(String[] args) {
+					System.out.print("Bom dia!");
+					System.out.print("Bom dia!"); 
+			 }
+			}
 
 ~~~
 > CONSOLE: Bom diaBom dia
@@ -17,13 +17,13 @@ public class Main {
 
 **Com quebra de linha ao final:**
 ~~~javascript
-public class Main {
-
-	public static void main(String[] args) {
-		System.out.println("Bom dia!");
-		System.out.println("Bom dia!");
- }
-}
+				public class Main {
+				
+					public static void main(String[] args) {
+						System.out.println("Bom dia!");
+						System.out.println("Bom dia!");
+				 }
+				}
 
 ~~~
 > CONSOLE: Bom diaBom dia
@@ -37,16 +37,13 @@ System.out.println(y);
 
 
 ~~~javascript
-import java.util.Locale;
-import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		int y=32;
-		System.out.println(y);
- }
-}
+				public class Main {
+				
+					public static void main(String[] args) {
+						int y=32;
+						System.out.println(y);
+				 }
+				}
 
 ~~~
 
@@ -60,19 +57,17 @@ public class Main {
 
 
 ~~~javascript
-import java.util.Locale;
-
-public class Main {
-
-	public static void main(String[] args) {
-		double x = 10.35784;
-		System.out.println(x);
-		System.out.printf("%.2f%n", x);
-		System.out.printf("%.4f%n", x);
-		Locale.setDefault(Locale.US);
-		System.out.printf("%.4f%n", x);;
- }
-}
+				public class Main {
+				
+					public static void main(String[] args) {
+						double x = 10.35784;
+						System.out.println(x);
+						System.out.printf("%.2f%n", x);
+						System.out.printf("%.4f%n", x);
+						Locale.setDefault(Locale.US);
+						System.out.printf("%.4f%n", x);;
+				 }
+				}
 ~~~
 
 >CONSOLE:> 10.35784 10,36 10,3578 10.3578
@@ -85,15 +80,13 @@ public class Main {
 
 
 ~~~javascript
-import java.util.Locale;
-
-public class Main {
-
-	public static void main(String[] args) {
-		int x = 10;
-		System.out.println("RESULTADO = " + x + " METROS");;
- }
-}
+				public class Main {
+				
+					public static void main(String[] args) {
+						int x = 10;
+						System.out.println("RESULTADO = " + x + " METROS");;
+				 }
+				}
 ~~~
 > CONSOLE: RESULTADO = 10 METROS
 
@@ -104,15 +97,13 @@ public class Main {
 "TEXTO1 %f TEXTO2 %f TEXTO3", variavel1, variavel2 
 
 ~~~javascript
-import java.util.Locale;
-
-public class Main {
-
-	public static void main(String[] args) {
-		double x = 10.4789;
-		System.out.printf("RESULTADO = %.2f metros%n", x);;
- }
-}
+				public class Main {
+				
+					public static void main(String[] args) {
+						double x = 10.4789;
+						System.out.printf("RESULTADO = %.2f metros%n", x);;
+				 }
+				}
 ~~~
 > CONSOLE: RESULTADO = 10,48 metros
 
@@ -130,17 +121,17 @@ public class Main {
 
 
 ~~~javascript
-		String product1 ="Computer";
-		String product2 ="Office desk";
-
-		int age = 30;
-		int code = 5290;
-		char gender = 'F';
+				String product1 ="Computer";
+				String product2 ="Office desk";
 		
-		double price1 = 2100.0;
-		double price2 = 650.50;
-		double measure = 53.234567;
-~~~
+				int age = 30;
+				int code = 5290;
+				char gender = 'F';
+				
+				double price1 = 2100.0;
+				double price2 = 650.50;
+				double measure = 53.234567;
+		~~~
 ## Em seguida, usando os valores das variáveis, produza a seguinte saída na tela do console:
 Products:
 Computer, wich price is $2100,00
