@@ -6,6 +6,7 @@
 | A = Math.pow(x, y);  | Variável A recebe o resultado de x elevado a y |
 | A = Math.abs(x); |Variável A recebe o valor absoluto de x |
 
+
 ~~~Javascript
 public class Main {
 public static void main(String[] args) {
@@ -35,10 +36,24 @@ public static void main(String[] args) {
 }
 ~~~
 >CONSOLE: Raiz quadrada de 3.0 = 1.7320508075688772
+>
+>
 >Raiz quadrada de 4.0 = 2.0
+>
+>
 >Raiz quadrada de 25 = 5.0
+>
+>
 >3.0 elevado a 4.0 = 81.0
+>
+>
 >3.0 elevado ao quadrado = 9.0
+>
+>
 >5 elevado ao quadrado = 25.0
+
+
 >Valor absoluto de 4.0 = 4.0
+>
+>
 >Valor absoluto de -5.0 = 5.0
