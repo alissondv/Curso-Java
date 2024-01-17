@@ -1,7 +1,11 @@
-# As três operações básicas de programação
-## Um programa de computador é capaz de realizar essencialmente três operações:
-`Entrada de dados -> Processamento de dados -> Saída de dados`
+# Saída de dados em Java
+## Para escrever na tela um texto qualquer
+**Sem quebra de linha ao final:**
+`System.out.print("Bom dia!");`
 
-## Processamento de dados
-**É quando o programa realiza os cálculos**
-> O processamento de dados se dá por um comando chamado ATRIBUIÇÃO media = (x + y) / 2.0;
+**Com quebra de linha ao final:**
+`System.out.println("Bom dia!");`
+## Para escrever o conteúdo de uma variável de algum tipo básico
+>Suponha uma variável tipo int declarada e iniciada: int y = 32;
+
+System.out.println(y);
