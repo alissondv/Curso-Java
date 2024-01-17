@@ -1,13 +1,4 @@
-# Scanner
-## Para fazer entrada de dados, nós vamos criar um objeto do tipo "Scanner" da seguinte forma:
-
-`Scanner sc = new Scanner(System.in);`
-
-
-`import java.util.Scanner;`
-
-
-**x = sc.next();**
+# Para ler um texto ATÉ A QUEBRA DE LINHA
 ~~~Javascript
 import java.util.Scanner;
 
@@ -15,45 +6,21 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String x = sc.next();
-		System.out.printf("Você digitou:"+ x);
+		String s1, s2, s3;
+		
+		s1 = sc.nextLine();
+		s2 = sc.nextLine();
+		s3 = sc.nextLine();
+		
+		System.out.println("DADOS DIGITADOS:");
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
 		sc.close();
  }
 }
 
 ~~~
-
-## Para ler um número inteiro
-**x = sc.nextInt();**
-~~~Javascript
-import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int x = sc.nextInt();
-		System.out.printf("Você digitou:"+ x);
-		sc.close();
- }
-}
-~~~
-
-## Para ler um número com ponto flutuante
-**x = sc.nextDouble();**
-~~~Javascript
-import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		double x = sc.nextDouble();
-		System.out.printf("Você digitou:"+ x);
-		sc.close();
- }
-}
-
-~~~
-
-
+## ATENÇÃO: quebra de linha pendente
+> [!NOTE]
+> Quando você usa um comando de leitura diferente do nextLine() e dá alguma quebra de linha, essa quebra de linha fica "pendente" >na entrada padrão.
