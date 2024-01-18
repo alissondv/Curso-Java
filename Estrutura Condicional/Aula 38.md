@@ -1,37 +1,17 @@
-# Expressão condicional ternária
-> [!NOTE]
-> Estrutura opcional ao if-else quando se deseja decidir um VALOR com base em uma condição.
+# Escopo e inicialização
+## Checklist
 
-
-Sintaxe: 
-`( condição ) ? valor_se_verdadeiro : valor_se_falso`
-
-
-Exemplos:
-`( 2 > 4 ) ? 50 : 80`
->CONSOLE: 80
-
-
-`( 10 != 3 ) ? "Maria" : "Alex"`
->CONSOLE: 80
+* Escopo de uma variável: é a região do programa onde a variável é
+* válida, ou seja, onde ela pode ser referenciada.
+* Uma variável não pode ser usada se não for iniciada.
+* Falaremos de escopo de métodos no Capítulo 5
 
 
 ## Demo
-
-**Com IF**
 ~~~Javascript
-double preco = 34.5;
-double desconto;
-if (preco < 20.0) {
-desconto = preco * 0.1;
+double price = sc.nextDouble();
+if (price > 100.0) {
+double discount = price * 0.1;
 }
-else {
-desconto = preco * 0.05;
-}
-~~~
-
-**Com condicional ternária**
-~~~Javascript
-double preco = 34.5;
-double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
+System.out.println(discount);
 ~~~
