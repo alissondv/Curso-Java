@@ -5,6 +5,8 @@
 
 Sintaxe: 
 `( condição ) ? valor_se_verdadeiro : valor_se_falso`
+
+
 Exemplos:
 `( 2 > 4 ) ? 50 : 80`
 >CONSOLE: 80
