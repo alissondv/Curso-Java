@@ -1,52 +1,67 @@
-# Expressões lógicas
-| Operador  | Significado |
-| ------------- | ------------- |
-| &&  | E  |
-|  \| \| | OU  |
-|  !  | NÃO  |
+# Estrutura condicional
+## Conceito
+
+Estrutura condicional:
+
+>É uma estrutura de controle que permite definir que um certo bloco de comandos somente será executado dependendo de uma condição
+
+## Sintaxe da estrutura condicional
+
+~~~Javascript
+if ( <condição> ) {
+<comando 1>
+<comando 2>
+}
+~~~
+
+## Sintaxe da estrutura condicional
+
+~~~Javascript
+if ( <condição> ) {
+<comando 1>
+<comando 2>
+}
+else {
+<comando 3>
+<comando 4>
+}
+~~~
+
+## Encadeamento de estruturas condicionais
+
+~~~Javascript
+if ( condição 1 ) {
+comando 1
+comando 2
+}
+else {
+if ( condição 2 ) {
+comando 3
+comando 4
+}
+else {
+comando 5
+co
+}
+~~~
 
 
-## Ideia por trás do operador "E"
-> [!NOTE]
-> Todas condiçõesdevem ser verdadeiras!
-
-
-(suponha x igual a 5)
-
->X <= 20 && X == 10 FALSE
->
->
->X > 0 && X != 3 TRUE 
->
->
->X <= 20 && X == 10 && X != 3 FALSE
-
-
-
-## Ideia por trás do operador "OU"
-> [!NOTE]
-> Pelo menos uma condição deve ser verdadeira!
-
-
-(suponha x igual a 5)
-
-> X == 10 || X <= 20 TRUE
->
->
-> X > 0 || X != 3 TRUE 
->
->
-> X <= 0 || X != 3 || X != 5 TRUE
-
-
-## Ideia por trás do operador "NÃO"
-> [!NOTE]
-> O operador "NÃO" inverte a condição
-
-(suponha x igual a 5)
-
-> !(X == 10) TRUE 
->
-> !(X >= 2) FALSE
-
-
+## Encadeamento de estruturas condicionais
+~~~Javascript
+if ( condição 1 ) {
+comando 1
+comando 2
+}
+else if ( condição 2 ) {
+comando 3
+comando 4
+}
+else if ( condição 3 ) {
+comando 5
+comando 6
+}
+else {
+comando 7
+comando 8
+}
+~~~
