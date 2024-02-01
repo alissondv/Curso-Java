@@ -26,7 +26,7 @@ this.quantity = quantity;
 | 10  | quantity  |
 
 
-product -> | TV  | 1500.0 | 0 |
-
-
-           | name| price  | quantity |
+> product -> | TV  | 1500.0 | 0 |
+>
+>           
+>            | name| price  | quantity
