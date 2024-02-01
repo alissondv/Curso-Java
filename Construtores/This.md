@@ -19,6 +19,7 @@ this.quantity = quantity;
 
 
 (escopo do construtor)
+
 | "TV" |  name | 
 | ------------- | | ------------- | 
 | 1500.0 |  price | 
