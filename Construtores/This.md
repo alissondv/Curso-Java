@@ -29,4 +29,4 @@ this.quantity = quantity;
 > product -> | TV  | 1500.0 | 0 |
 >
 >           
->            | name| price  | quantity
+>            | name | price  | quantity
