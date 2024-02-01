@@ -11,7 +11,7 @@
 
 ## Padrão para implementação de getters e setters
 
-**getName Obter o atributo**
+**getName = Retornar o atributo**
 
 
 **setName = alterar valor do atributo**
