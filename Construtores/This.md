@@ -21,9 +21,10 @@ this.quantity = quantity;
 (escopo do construtor)
 
 | TV  | name |
+| ------------- | ------------- |
 | 1500.0  | price  |
 | 10  | quantity  |
 
 
 product -> | TV  | 1500.0 | 0 |
-           | name  | price | quantity |
+           | name| price  | quantity |
