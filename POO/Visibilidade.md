@@ -15,3 +15,19 @@ Telefone
 +\ Público Telefone que qualquer um pode usar ( todos tem acesso)
 -\ Privado Telefone particular (apenas você tem acesso)
 #\ Protegido Telefone da sua casa (pessoas especificas tem acesso)
+
+
+Classe Caneta
+pensar nos **ATRIBUTOS**
+   publico modelo:caractere
+   publico cor: caractere
+   privado ponta: real
+   protegido tampada: logico
+
+
+    pensar nos **MÉTODOS**
+    publico Metodo rabiscar()
+    privado Metodo tampar()
+
+
+Fim Classe
