@@ -20,3 +20,4 @@ Estado: % carga, tampada/destampada, escrevendo/não;
 (Estado)
 
 
+
