@@ -33,4 +33,8 @@ list.add(2,"Alisson") // Adicionar elemento em uma posição específica da list
 lista.size() // ver tamaanho da lista
 lista.remove("Alisson") /* remover apartir da comparação */ lista.remove(1) // remover elemento de uma opção
 lista.removeIF(x -> x.charAt(0) == 'M' ) //remove por predicado
+list.indexOf("Alisson") //Buscar dentro da lista
 ~~~
+
+# Deixar na lista somente quem tem o nome começa com M
+List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
