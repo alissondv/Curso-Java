@@ -38,3 +38,6 @@ list.indexOf("Alisson") //Buscar dentro da lista
 
 # Deixar na lista somente quem tem o nome começa com M
 List<String> result = list.stream().filter(x -> x.charAt(0) == 'A').collect(Collectors.toList());
+
+# Encontrar o primeiro elemento que começa com a letra A
+String name = list.stream().filter( x - > x.charAt(0) == 'A').findFirst().orElse(null);
